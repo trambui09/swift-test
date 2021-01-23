@@ -14,6 +14,8 @@ struct ContentView: View {
     
     class ViewController: UIViewController, CLLocationManagerDelegate {
         let manager = CLLocationManager()
+        
+        let testing = "this is a test"
 
         override func viewDidLoad() {
             manager.delegate = self
